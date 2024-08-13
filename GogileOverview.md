@@ -91,6 +91,10 @@ Devs should focus on planning and performing the "strokes". They need to underst
 ## Trade offs
 So, what are the trade offs of using Gogile?
 
+The chart below describe different methods and their corresponding agility vs. planning waste.
+
+Gogile is aimed at reaching the sweet spot quadrant of "*More Agile, Less planning waste*"
+
 ```mermaid
     quadrantChart
         title Agile methods and wasted planning
@@ -107,3 +111,40 @@ So, what are the trade offs of using Gogile?
         Gogile: [0.8, 0.8]
         Bureaucracy: [0.1, 0.1]
 ```
+
+### Waterfall
+You plan everything before starting work. Not very agile.
+
+Planning waste is ideally low, but in reality realizations during development create planning waste.
+
+### Scrum
+More agile, but only between sprints. Unforeseen discoveries during development is difficult to accomodate during the sprints.
+
+Planning waste comes mostly from trying to plan everything before starting the sprint. Any deviations from the plan will create carry over tasks, sending tasks back to the backlog or having to rewrite tasks.
+
+### Kanban
+Higher agility, since you can change the backlog at any time.
+
+Planning waste comes from filling up the backlog with tasks based on the current state. When the current state changes, already created tasks might become stale.
+
+### Military planning
+Included just for perspective.
+
+The end goal is clear. Plans to achieve it are created along with large amounts of contingency plans for unexpected outcomes. Fairly agile thanks to the contingency plans.
+
+Huge planning waste, since most contingency plans are newer used.
+
+### Bureaucracy
+Included just for perspective.
+
+Every event is analyzed and discussed before any action is taken.
+
+Very low agility caused by endless discussions and passing of decisions to different instances.
+
+Very high planning waste, caused by planning effort being extremely high compared to the actual outcome.
+
+### Gogile
+
+High agility, since all actions are started from the current state with the most up to date knowledge.
+
+Low planning waste, since pre planning is limited. Planning is done when it's ready to be put into action.
