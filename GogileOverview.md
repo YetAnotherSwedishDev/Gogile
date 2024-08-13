@@ -26,8 +26,6 @@ It aims at reducing planning waste and increasing development velocity.
     - [Bureaucracy](#bureaucracy)
     - [Gogile](#gogile)
 
-
-
 ## The Golf Analogy
 Even if you've never played golf, the analogy is useful to explain the mindset of Gogile.
 
