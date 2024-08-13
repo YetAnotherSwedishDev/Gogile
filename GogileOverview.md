@@ -7,13 +7,24 @@ It aims at reducing planning waste and increasing development velocity.
 - [Gogile overview](#gogile-overview)
 - [Table of contents](#table-of-contents)
   - [The Golf Analogy](#the-golf-analogy)
-    - [Using Scrum](#using-scrum)
+    - [Scrum](#scrum)
       - [Before starting](#before-starting)
       - [After each task](#after-each-task)
     - [The Gogile Approach](#the-gogile-approach)
       - [Before starting](#before-starting-1)
       - [After each task](#after-each-task-1)
-  - [Trade offs](#trade-offs)
+    - [What Gogile does differently](#what-gogile-does-differently)
+      - [Task Estimations](#task-estimations)
+      - [Project Estimations](#project-estimations)
+      - [Bugs](#bugs)
+      - [Testing](#testing)
+  - [Compared with other methods](#compared-with-other-methods)
+    - [Waterfall](#waterfall)
+    - [Scrum](#scrum-1)
+    - [Kanban](#kanban)
+    - [Military planning](#military-planning)
+    - [Bureaucracy](#bureaucracy)
+    - [Gogile](#gogile)
 
 
 
@@ -33,13 +44,13 @@ The longer the stroke, the lower the accuracy.
 
 If you translate this to software engineering, the course can represent a release, internal or external, or similar milestone. The holes are features, or goals, needed to get to that release. The strokes are tasks, of different sizes, that can be merged to the branch that the team use to create the release.
 
-### Using Scrum
+### Scrum
 Using Scrum, this analogy could play out like this.
 
 #### Before starting
-Before the sprint start you gather at the tee. PO, DM, Devs, testers. You look towards the the flag at the distant hole. 
+Before the sprint start you gather at the tee. PO, DM, Devs, testers. The PO explains what the goal, "the hole", is.
 
-Now, the group attempts to plan a large series of small tasks that will get project to that goal. When the sprint starts, the developer tees off, using the putter for the first small task. 
+Now, the group attempts to plan a large series of small tasks that will get project to that goal. The tasks are kept small to give flexibility and estimation accuracy. When the sprint starts, the developer tees off, using the putter for the first small task. 
 
 #### After each task
 When the task is done the testers take a look and checks if the stroke was exactly according to plan, if not small adjustments are made until everyone agrees that this is where the first stroke should have ended. 
@@ -57,38 +68,38 @@ After 25 putts the goal is in the hole and the group starts planning the tasks f
 #### Before starting
 The PO, DM, Dev and testers meet at the tee and discuss the goal for this first hole. 
 
-It should be achievable in max 2 weeks. Once the goal is agreed the Dev is asked what he/she would spend 3-5 days on to get as close to that goal as possible. This is a "drive". At the end of that task the work should be merged and stable. A task documenting this work is created. The drive doesn't have to be accurate, as long as long as it gets the team closer to the goal. In the meantime the testers are sent to the hole to work on how to test everything once the ball is in the hole.
+It should be achievable in approximately 2 weeks. Once the goal is agreed the Dev is asked what they would spend 3-5 days on to get as close to that goal as possible. This is a "drive". At the end of that task the work should be mergeable and stable. A task documenting this work is created. The drive doesn't have to be accurate, as long as long as it gets the team closer to the goal. In the meantime the testers are sent to the hole to work on how to test everything once the ball is in the hole.
 
 #### After each task
-The Dev get to work and after completing the drive there is no testing. Instead the PO and Dev meet to define the next stroke. Depending on the outcome of the drive they might plan a pitch, chip or putt. It's possible that the drive went out of bounds and need to be back tracked and a new drive made with the new knowledge gained from the first one.
+The Dev get to work and after completing the task there is no testing. Instead the PO and Dev meet to define the next stroke/task. Depending on the outcome of the drive they might plan a pitch, chip or putt (M/S/XS task). It's possible that the drive went out of bounds and need to be back tracked and a new drive made with the new knowledge gained from the first one.
 
 This is repeated until the ball is in the hole. At that point the testers have tests defined to see how well the full product fulfills the requirements after this hole.
 
 There is no backlog. All tasks are planned with the completion of the previous one. This ensures all tasks are created with the maximum amount of knowledge and always started after being created.
 
+### What Gogile does differently
 
-Estimations are flipped from "How long will this take?" to "What would you do with this amount of time?. Estimations are also always done together with the implementor, reducing the inaccuracy caused by "It would take ME this long, but I don't know how long Jane Doe would need".
+#### Task Estimations
+Estimations are flipped from "How long will this take?" to "What would you do with this amount of time?. Estimations are also always done together with the implementor, reducing the inaccuracy caused by "It would take ME this long, but I don't know how long Jane Doe would need" discussions.
 
+Devs should focus on planning and performing the "strokes". They need to understand the goals for the hole and the course goals to ensure architecture is aligned with the bigger picture.
 
-It will take a lot more small meetings with focused groups to plan each stroke, but time will be freed up from a lot of long backlog refinement meetings in large groups.
+It will take a lot more small meetings with focused groups to plan each stroke, but time will be freed up by removing long backlog refinement meetings in large groups, sprint planning meetings etc.
 
+#### Project Estimations
+High level estimations, such as "How long will this project take and what resources are needed?", will be performed outside of this process by POs, DMs, PMs, tech leads and SMEs.
 
-High level estimations, such as "how long will this project take and what resources are needed", will be performed outside of this process by POs, DMs, PMs, tech leads and SMEs.
+#### Bugs
+Bugs are left out of the process. Bugs should be tracked separately and tested immediately after fixing.
 
-
-Bugs are also left out of the process. Bugs should be tracked separately and tested immediately after fixing.
-
-
+#### Testing
 Testers should focus on testing the product based off requirements and functional designs, instead of testing individual tasks. Continuous testing can generate bugs or the need for new "holes" to be added to the course.
 
 PO should make sure there are clear, well defined, goals/"holes" and attend the stroke planning to make sure it's aimed at the target.
 
 DM should look at the "course" and ensure the correct resources are in place at the right time. Also DM should make sure work that is depending on other teams is aligned and prepared.
 
-
-Devs should focus on planning and performing the "strokes". They need to understand the goals for the hole and the course goals to ensure architecture is aligned with the bigger picture.
-
-## Trade offs
+## Compared with other methods
 So, what are the trade offs of using Gogile?
 
 The chart below describe different methods and their corresponding agility vs. planning waste.
@@ -128,14 +139,14 @@ Higher agility, since you can change the backlog at any time.
 Planning waste comes from filling up the backlog with tasks based on the current state. When the current state changes, already created tasks might become stale.
 
 ### Military planning
-Included just for perspective.
+Not a real method. Included only for perspective.
 
 The end goal is clear. Plans to achieve it are created along with large amounts of contingency plans for unexpected outcomes. Fairly agile thanks to the contingency plans.
 
 Huge planning waste, since most contingency plans are newer used.
 
 ### Bureaucracy
-Included just for perspective.
+Not a real method. Included only for perspective.
 
 Every event is analyzed and discussed before any action is taken.
 
