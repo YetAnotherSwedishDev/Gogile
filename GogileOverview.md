@@ -2,6 +2,8 @@
 Go(lf a)gile is an agile software development process.
 It aims at reducing planning waste and increasing development velocity.
 
+For more information about the different roles involved in the process, see [Roles](Roles.md)
+
 # Table of contents
 
 - [Gogile overview](#gogile-overview)
