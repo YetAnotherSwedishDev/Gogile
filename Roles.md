@@ -8,13 +8,13 @@ This page describes different roles and their part of the process
   - [Product Owner (PO)](#product-owner-po)
   - [Delivery Manager (DM)](#delivery-manager-dm)
   - [Product Manager (PM)](#product-manager-pm)
+  - [Business Analyst (BA)](#business-analyst-ba)
   - [Developer](#developer)
   - [Tester](#tester)
   - [Leads](#leads)
     - [Tech lead](#tech-lead)
     - [Front end lead](#front-end-lead)
     - [Test lead](#test-lead)
-
 
 ## Product Owner (PO)
 The product owner is responsible for generating and communicating the holes/goals. They should be confident that the goal actually contributes to the course/milestone objectives.
@@ -31,7 +31,10 @@ They should align with other delivery managers to ensure synergies and dependenc
 ## Product Manager (PM)
 The product manager is the main stakeholder. They should align with all stakeholders to gather the input needed to supply enough information to the delivery manager and product owner for them to make fulfill their respective responsibilities.
 
-They are the deciding 
+They are the deciding power, when it comes to what the minimum viable product is.
+
+## Business Analyst (BA)
+The role of the business analyst if to create and maintain the requirements and functional designs that describe the product. They should support the conversion of stakeholder needs into requirements and functional designs. They should ensure the goals used to plan the holes are supported by documented requirements and create new requirements where needed.
 
 ## Developer
 The developer needs to be involved in stroke/task planning. They should also have an understanding of the full course/milestone plan to be able to give valuable feedback to the PO during development.
