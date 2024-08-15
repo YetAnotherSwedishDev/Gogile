@@ -66,7 +66,7 @@ After 25 putts the goal is in the hole and the group starts planning the tasks f
 ### The Gogile Approach
 
 #### Before starting
-The PO, DM, Dev, Caddie(s) and Testers meet at the tee and discuss the goal for this first hole. 
+The PO, DM, Dev, Caddie(s) and Testers meet at the tee and discuss the goal for this first hole. Caddie(s) should be appointed at this time and commit to supporting the developer throughout the hole.
 
 It should be achievable in approximately 2 weeks. Once the goal is agreed the Dev is asked what they would spend 3-5 days on to get as close to that goal as possible. This is a "drive". At the end of that task the work should be mergeable and stable. A task documenting this work is created. The drive doesn't have to be accurate, as long as long as it gets the team closer to the goal. In the meantime the testers are sent to the hole to work on how to test everything once the ball is in the hole.
 
