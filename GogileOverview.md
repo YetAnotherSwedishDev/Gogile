@@ -71,7 +71,7 @@ The PO, DM, Dev, Caddie(s) and Testers meet at the tee and discuss the goal for 
 It should be achievable in approximately 2 weeks. Once the goal is agreed the Dev is asked what they would spend 3-5 days on to get as close to that goal as possible. This is a "drive". At the end of that task the work should be mergeable and stable. A task documenting this work is created. The drive doesn't have to be accurate, as long as long as it gets the team closer to the goal. In the meantime the testers are sent to the hole to work on how to test everything once the ball is in the hole.
 
 #### After each task
-The Dev get to work and after completing the task there is no testing. Instead the Dev and Caddie meet to define the next stroke/task. The PO can be included in the stroke planning if their guidance is needed to ensure work is contributing the the goal. Depending on the outcome of the drive they might plan a pitch, chip or putt (M/S/XS task). It's possible that the drive went out of bounds and need to be back tracked and a new drive made with the new knowledge gained from the first one.
+The Dev get to work and after completing the task there is no testing. Instead the Dev and Caddie meet to define the next stroke/task. The PO can be included in the stroke planning if their guidance is needed to ensure work is contributing to the goal. Depending on the outcome of the drive they might plan a pitch, chip or putt (M/S/XS task). It's possible that the drive went out of bounds and need to be back tracked and a new drive made with the new knowledge gained from the first one.
 
 This is repeated until the ball is in the hole. At that point the testers have tests defined to see how well the full product fulfills the requirements after this hole.
 
