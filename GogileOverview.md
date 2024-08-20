@@ -61,7 +61,7 @@ After 10 putts the PO realizes that this is not really heading in the right dire
 
 Everyone backtracks 5 strokes and tries to get back on track. The tasks originally planned stay in the backlog, to be completed when the group arrives there. (Spoiler: they will never get there and the tasks will exist in the backlog for the rest of the project).
 
-After 25 putts the goal is in the hole and the group starts planning the tasks for the next hole, that needs to be started ASAP.
+After 25 putts the ball is in the hole and the group starts planning the tasks for the next hole, that needs to be started ASAP.
 
 ### The Gogile Approach
 
